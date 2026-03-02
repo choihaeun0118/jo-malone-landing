@@ -1,0 +1,80 @@
+/* 기본 초기화 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F6F4EF;
+  font-family: 'Noto Sans KR', sans-serif;
+  line-height: 1.6;
+}
+
+/* 공통 섹션 */
+.section {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* 전체 이미지 */
+.full-img {
+  width: 100%;
+  display: block;
+}
+
+.after{
+    position: relative;
+}
+
+
+.after div{
+    width: 800px;
+    height: 412px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+
+}
+.after div img{
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+}
+
+
+.link{
+    position: relative;
+}
+
+
+.link a {
+  display: inline-block;
+  padding: 14px 40px;
+  border: 1px solid #222;
+  text-decoration: none;
+  color: #222;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  position: absolute;
+  top: 40%;
+  left: 5%;
+
+}
+
+.link a:hover {
+  background-color: #222;
+  color: #fff;
+}
+
+/* 반응형 */
+@media (max-width: 768px) {
+  .section {
+    padding: 60px 16px;
+  }
+
+  .live-link {
+    padding: 80px 16px;
+  }
+}
