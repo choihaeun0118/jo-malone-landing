@@ -78,3 +78,13 @@ body {
     padding: 80px 16px;
   }
 }
+/* 전체 가로 스크롤 제거 */
+html, body {
+  overflow-x: hidden; 
+}
+
+/* 모든 이미지가 부모 너비 넘지 않도록 */
+img {
+  max-width: 100%;
+  height: auto;
+}
